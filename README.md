@@ -15,7 +15,7 @@ Sistema de clasificación supervisada para detectar contaminación por granos de
 ---
 
 ## Estructura del repositorio
-![Estructura del repositorio](reporte/estructura_estructura_proyecto.png)
+![Estructura del repositorio](reporte/estructura_proyecto.png)
 
 ---
 ## Instalación
