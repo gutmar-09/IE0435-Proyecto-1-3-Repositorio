@@ -10,8 +10,6 @@
 | **Archivo** | `C33619_Marlon_Gutierrez.joblib` |
 | **Versión** | v3.0.0 |
 | **Algoritmo** | SVM con kernel RBF, C=1 |
-| **Pipeline** | StandardScaler → SVM RBF C=1 |
-| **Framework** | scikit-learn (Python) |
 | **Fecha** | Mayo 2026 |
 | **Autor** | Marlon Gutiérrez Vásquez · C33619 · marlon.gutierrez@ucr.ac.cr |
 | **Curso** | IE0435 - Inteligencia Artificial Aplicada a la Ingeniería Eléctrica, UCR |
@@ -27,7 +25,7 @@
 ### Fuera del alcance (out-of-scope)
 - Detección de contaminantes distintos al arroz (el modelo solo fue entrenado para arroz vs. sin arroz).
 - Contraluces o ambientes oscuros.
-- Imágenes con fondos texturizados, oscuros o con colores similares al arroz.
+- Imágenes con fondos muy texturizados, oscuros o con colores similares al arroz.
 - Detección de arroz en imágenes con objetos parcialmente tapados o escenas complejas.
 - Correcta detección cuando los elementos están muy cerca, el algoritmo tiene mejor desempeño cuando los elementos están bien separados entre ellos.
 
@@ -46,13 +44,14 @@
 ### Cómo se recolectó
 Las primeras 30 imágenes (15 positivas + 15 negativas) fueron tomadas por el autor del proyecto en exteriores bajo luz solar directa, sobre fondos claros, con ángulo cenital. Para ampliar a 120 imágenes de entrenamiento, se incorporaron imágenes de tres compañeros del curso (Walther Barrantes, Ignacio Montenegro, Sebastián Rojas) siguiendo el mismo protocolo. El conjunto de prueba (30 imágenes) fue aportado íntegramente por Jorge Loría y es completamente independiente.
 
+Para más detalles véase el DATASET.md
+
 
 
 ## 4. Labeling process
 
 | Campo | Detalle |
 |-------|---------|
-| **Tipo de etiquetado** | Etiquetado binario a nivel de imagen (no bounding boxes) |
 | **Nombre de mustras** | Convención de nombres de archivo: `positiva*.png` = clase 1, `negativa*.png` = clase 0, `prueba*.png` con etiqueta asignada manualmente |
 | **Formato de etiqueta** | Última columna del CSV: 1 (contaminada) o 0 (no contaminada) |
 

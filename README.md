@@ -10,12 +10,12 @@
 
 ## Descripción
 
-Sistema de clasificación supervisada para detectar contaminación por granos de arroz en imágenes RGB. Seconvierte imágenes a escala de intensidad, aplica segmentación binaria mediante el algoritmo de Kittler, extrae 17 características geométricas y morfológicas por imagen, y entrena varios modelos de clasificación supervisada. El mejor modelo obtenido fue SVM con kernel RBF (C=1), con Accuracy=0.90 y F1 Score=0.9032 sobre el conjunto de prueba.
+Sistema de clasificación supervisada para detectar contaminación por granos de arroz en imágenes RGB. Se convierte imágenes RGB a imagenes de intensidad, aplica segmentación binaria mediante el algoritmo de Kittler, extrae 17 características geométricas y morfológicas por imagen, y entrena varios modelos de clasificación supervisada. El mejor modelo obtenido fue SVM con kernel RBF (C=1), con Accuracy=0.90 y F1 Score=0.9032 sobre el conjunto de prueba.
 
 ---
 
 ## Estructura del repositorio
-![Estructura del repositorio](reporte/estructura_proyecto.png)
+![Estructura del repositorio](reports/estructura_proyecto.png)
 
 ---
 ## Instalación

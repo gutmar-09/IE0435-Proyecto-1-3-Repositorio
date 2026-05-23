@@ -1,6 +1,5 @@
 # DATASET.md — Documentación del Dataset
 
-## Nombre
 
 `IE0435-Proyecto-1-3-Repositorio-Dataset-v3.0`  
 Detección de contaminación por granos de arroz en imágenes RGB binarias.
@@ -9,6 +8,7 @@ Detección de contaminación por granos de arroz en imágenes RGB binarias.
 
 ## Resumen
 
+La siguiente tabla corresponde a los muestras iniciales tomadas
 | Campo | Detalle |
 |-------|---------|
 | **Tarea** | Clasificación binaria (contaminada / no contaminada) |
