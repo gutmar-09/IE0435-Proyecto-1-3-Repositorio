@@ -19,22 +19,24 @@ directorio_rgb_entrenamiento = os.path.join(
     r"conjunto_entrenamiento\imagenes_RGB"
 )
 
-# Carpeta donde se guardan las imágenes ya segmentadas en blanco y negro.
+directorio_rgb_entrenamiento = os.path.join(
+    directorio_base,
+    "conjunto_entrenamiento", "imagenes_RGB"
+)
+
 directorio_segmentadas_entrenamiento = os.path.join(
     directorio_base,
-    r"conjunto_entrenamiento\imagenes_binarias"
+    "conjunto_entrenamiento", "imagenes_binarias"
 )
 
-# Carpeta donde se guarda el archivo CSV del conjunto de entrenamiento.
 directorio_csv_entrenamiento = os.path.join(
     directorio_base,
-    r"conjunto_entrenamiento\CSV"
+    "conjunto_entrenamiento", "CSV"
 )
 
-# Carpeta donde se guardan las imágenes reconstruidas a partir del CSV.
 directorio_reconstruidas_entrenamiento = os.path.join(
     directorio_base,
-    r"conjunto_entrenamiento\imagenes_reconstruidas"
+    "conjunto_entrenamiento", "imagenes_reconstruidas"
 )
 
 ruta_csv_entrenamiento = os.path.join(
@@ -42,37 +44,30 @@ ruta_csv_entrenamiento = os.path.join(
     "CSV.csv"
 )
 
-
-# =========================================================
-# DIRECTORIOS DEL CONJUNTO DE PRUEBA
-# =========================================================
-
-# Se repite la misma estructura anterior, pero ahora para el conjunto de prueba.
 directorio_rgb_prueba = os.path.join(
     directorio_base,
-    r"conjunto_prueba\imagenes_RGB"
+    "conjunto_prueba", "imagenes_RGB"
 )
 
 directorio_segmentadas_prueba = os.path.join(
     directorio_base,
-    r"conjunto_prueba\imagenes_binarias"
+    "conjunto_prueba", "imagenes_binarias"
 )
 
 directorio_csv_prueba = os.path.join(
     directorio_base,
-    r"conjunto_prueba\CSV"
+    "conjunto_prueba", "CSV"
 )
 
 directorio_reconstruidas_prueba = os.path.join(
     directorio_base,
-    r"conjunto_prueba\imagenes_reconstruidas"
+    "conjunto_prueba", "imagenes_reconstruidas"
 )
 
 ruta_csv_prueba = os.path.join(
     directorio_csv_prueba,
     "CSV.csv"
 )
-
 
 # Crear las carpetas de salida en caso de que todavía no existan.
 os.makedirs(directorio_segmentadas_entrenamiento, exist_ok=True)
