@@ -19,7 +19,7 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 
 # Directorio principal del proyecto. A partir de esta ruta se construyen las demás rutas.
 # Coloque la direccion que corresponda a la direccion donde guardó el repositorio
-BASE_PROYECTO = r"Colocar ruta base"
+BASE_PROYECTO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Archivos CSV de entrenamiento y prueba.
 RUTA_TRAIN = os.path.join(BASE_PROYECTO, "conjunto_entrenamiento", "CSV", "CSV.csv")

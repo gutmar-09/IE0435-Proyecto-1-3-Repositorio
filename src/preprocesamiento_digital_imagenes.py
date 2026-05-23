@@ -8,8 +8,7 @@ import csv
 # para entrenamiento, prueba, CSV e imágenes reconstruidas.
 # Coloque la direccion que corresponda a la direccion donde guardó el repositorio
 
-directorio_base = r"Colocar ruta base"
-
+directorio_base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # =========================================================
 # DIRECTORIOS DEL CONJUNTO DE ENTRENAMIENTO
 # =========================================================
