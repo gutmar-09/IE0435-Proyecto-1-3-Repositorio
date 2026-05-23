@@ -18,7 +18,8 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 # =============================================================================
 
 # Directorio principal del proyecto. A partir de esta ruta se construyen las demás rutas.
-BASE_PROYECTO = r"C:\Users\Admin G\OneDrive - Universidad de Costa Rica\Documentos\IE0435 - Proyecto 1-3"
+# Coloque la direccion que corresponda a la direccion donde guardó el repositorio
+BASE_PROYECTO = r"Colocar ruta base"
 
 # Archivos CSV de entrenamiento y prueba.
 RUTA_TRAIN = os.path.join(BASE_PROYECTO, "conjunto_entrenamiento", "CSV", "CSV.csv")

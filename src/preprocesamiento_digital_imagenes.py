@@ -6,8 +6,9 @@ import csv
 
 # Ruta principal del proyecto. A partir de esta carpeta se construyen las rutas
 # para entrenamiento, prueba, CSV e imágenes reconstruidas.
-directorio_base = r"C:\Users\Admin G\OneDrive - Universidad de Costa Rica\Documentos\IE0435 - Proyecto 1-3"
+# Coloque la direccion que corresponda a la direccion donde guardó el repositorio
 
+directorio_base = r"Colocar ruta base"
 
 # =========================================================
 # DIRECTORIOS DEL CONJUNTO DE ENTRENAMIENTO
