@@ -37,7 +37,7 @@ Los programas fueron desarrollados utilizando rutas de directorio Path correspon
 Este programa carga las imágenes RGB, calcula la intensidad, aplica el algoritmo de Kittler para segmentación binaria, redimensiona a 128×128 px, genera los archivos CSV y reconstruye las imágenes para verificación.
 
 ```bash
-python src/preprocesamiento_digital_imagenes.py
+python3 src/preprocesamiento_digital_imagenes.py
 ```
 
 Los resultados se guardan automáticamente en:
@@ -55,7 +55,7 @@ Los resultados se guardan automáticamente en:
 Este programa carga los CSV, extrae las 17 características geométricas, normaliza con StandardScaler, entrena y evalúa los modelos (Árbol de Decisión, Naive Bayes, SVM RBF C=1/10/100, SVM Lineal, KNN k=3/5) e imprime la tabla comparativa de métricas.
 
 ```bash
-python src/entrenamiento_y_prueba.py
+python3 src/entrenamiento_y_prueba.py
 ```
 
 Salida esperada en terminal:
